@@ -18,6 +18,12 @@ const todos = [
   {
     id: uuidv4(),
     sortId: counter++,
+    task: 'Jog around the park 3x',
+    completed: true,
+  },
+  {
+    id: uuidv4(),
+    sortId: counter++,
     task: '10 minutes meditation',
     completed: false,
   },
@@ -42,7 +48,7 @@ const todos = [
 ];
 
 const App = () => {
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(true);
   const [modal, setModal] = useState(false);
   const [items, setItems] = useState([]);
   const [filter, setFilter] = useState('All');
