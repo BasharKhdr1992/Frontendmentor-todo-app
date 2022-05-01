@@ -1,0 +1,39 @@
+.list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid hsl(234, 39%, 85%);
+  padding: 1em;
+}
+
+.list-item-left {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.task {
+  padding-left: 1em;
+}
+
+.list-item:last-child {
+  border: none;
+}
+
+.list-btn {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: hsl(234, 11%, 52%);
+}
+
+.list-item-left .circle:hover {
+  border-top-color: hsl(280, 87%, 65%);
+  border-left-color: hsl(280, 87%, 65%);
+  border-right-color: hsl(192, 100%, 67%);
+  border-bottom-color: hsl(192, 100%, 67%);
+}

@@ -1,0 +1,53 @@
+.btn {
+  padding: 14px 16px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  margin-right: 1em;
+  font-size: 18px;
+}
+
+.btn:last-child {
+  margin-right: 0;
+}
+
+.btn-danger {
+  background-color: red;
+  color: hsl(0, 0%, 98%);
+}
+
+.btn-link {
+  background: transparent;
+  color: hsla(220, 98%, 61%, 0.8);
+}
+
+.btn-danger:hover {
+  color: red;
+  background-color: hsl(0, 0%, 98%);
+}
+
+.btn-link:hover {
+  color: hsla(220, 98%, 61%, 1);
+}
+
+.btn-action-dark,
+.btn-action-light {
+  background: transparent;
+  color: hsl(234, 11%, 52%);
+}
+
+.btn-action-dark:hover {
+  color: hsl(0, 0%, 98%);
+}
+
+.btn-action-light:hover {
+  color: hsl(235, 21%, 11%);
+}
+
+.small {
+  font-size: 13px;
+}
+
+.active {
+  color: hsl(220, 98%, 61%);
+}

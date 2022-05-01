@@ -1,0 +1,14 @@
+.circle {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: 1px solid hsl(234, 11%, 52%);
+  cursor: pointer;
+}
+
+.fill {
+  background-image: url('../../assets/icon-check.svg'),
+    linear-gradient(to right, hsl(192, 100%, 67%), hsl(280, 87%, 65%));
+  background-position: center;
+  background-repeat: no-repeat;
+}

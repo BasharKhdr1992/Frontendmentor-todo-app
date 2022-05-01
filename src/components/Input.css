@@ -1,0 +1,23 @@
+.form-control {
+  margin-top: 2em;
+}
+
+.form-input {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 8px;
+  padding-left: 1em;
+}
+
+input[type='text'] {
+  outline: none;
+  border: none;
+  margin-left: 1em;
+  padding: 14px 16px;
+  width: 75%;
+  display: block;
+  border-radius: 8px;
+  font-size: 18px;
+  font-family: 'Josefin Sans', sans-serif;
+}

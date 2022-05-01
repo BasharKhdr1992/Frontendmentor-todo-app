@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  position: relative;
+  padding-top: 4em;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bg-img-dark {
+  background-image: url('./assets/bg-desktop-dark.jpg');
+  background-repeat: no-repeat;
+}
+
+.bg-img-light {
+  background-image: url('./assets/bg-desktop-light.jpg');
+  background-repeat: no-repeat;
+}
+
+.bg-light {
+  background-color: hsl(0, 0%, 98%);
+}
+
+.bg-dark {
+  background-color: hsl(235, 21%, 11%);
+}
+
+.bg-dark-secondary {
+  background-color: hsl(235, 24%, 19%);
+}
+
+.bg-light-secondary {
+  background-color: hsl(236, 33%, 92%);
+}
+
+.light-text {
+  color: hsl(235, 24%, 19%);
+}
+
+.dark-text {
+  color: hsl(233, 11%, 84%);
+}
+
+.light-modal {
+  background-color: hsla(236, 33%, 92%, 0.8);
+}
+
+.dark-modal {
+  background-color: hsla(235, 24%, 19%, 0.8);
+}
+
+.inner-wrapper {
+  width: 40%;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  color: hsl(0, 0%, 98%);
+  letter-spacing: 10px;
+  justify-content: space-between;
+}
+
+.error {
+  color: red;
+  font-size: 18px;
+  margin-top: 1em;
+}
+
+@media screen and (max-width: 1000px) {
+  .inner-wrapper {
+    width: 90%;
+  }
+}
