@@ -44,3 +44,10 @@
   flex-direction: row;
   justify-content: center;
 }
+
+@media screen and (max-width: 1000px) {
+  .modal-header,
+  .modal-content {
+    width: 90%;
+  }
+}
